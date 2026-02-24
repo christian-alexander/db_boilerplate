@@ -1,0 +1,2 @@
+CALL get_kategori_terlaris('2026-02');
+CALL get_kategori_terlaris_with_zero_terlaris('2026-02');
