@@ -1,2 +1,5 @@
 CALL get_kategori_terlaris('2026-02');
-CALL get_kategori_terlaris_with_zero_terlaris('2026-02');
+CALL get_kategori_terlaris_with_zero_sales('2026-02');
+CALL get_kategori_terlaris_with_alias('2026-02', NULL); 
+-- atau
+CALL get_kategori_terlaris_with_alias('2026-02', 'ANT'); 
